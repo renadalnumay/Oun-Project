@@ -1,0 +1,27 @@
+body { 
+    background: whitesmoke ;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Optima' , sans-serif;
+
+}
+
+header {
+   
+    position: fixed;
+    top:0; left:0; right:0;
+    background:linear-gradient(60deg, rgb(196, 183, 247) 0%, rgb(97, 219, 235) 100%); 
+    padding:20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+      }
+    
+    .logo {
+        height: 50px;
+        width: 100px;
+    }

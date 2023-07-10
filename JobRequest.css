@@ -1,0 +1,112 @@
+body{
+    text-align:center;
+    font-family: monospace;
+    margin-top: -50px;
+}
+
+.footer-distributed{top: 800px;}
+.footer-distributed .footer-icons a{ margin-bottom: 2px;}
+
+.mytitle{
+    margin-top: 0;
+    text-align: center;
+    color: rgb(41, 33, 78);
+     }
+
+.card {
+    background: white;
+    border-radius: 6px;
+    display: inline-block;
+    height: 370px;
+    width: 275px;
+    margin-top:  50px;
+    box-shadow:0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img {
+    border-radius: 100%;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    color: black;
+    font-size: 16px;
+}
+
+.desc {
+    font-size: 16px;
+    margin-left: 35px;
+    margin-right: 30px;
+    color: black;
+    margin-top: 10px;
+    width: 200px;
+}
+
+
+
+.btn {
+    background-color: rgb(41, 33, 78) ;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+
+.btn:hover{
+    background-color: rgb(72, 56, 133) ;
+    border-color: rgb(72, 56, 133);
+    fill: rgb(72, 56, 133);
+    transition: all 400ms linear;
+    cursor: pointer;
+}
+
+.btn:focus{
+    color: #fff;
+
+}
+
+
+input[type=text] {
+    background: rgb(209, 207, 207);
+    border: none;
+    border-radius: 30px;
+    font: gray;
+    height: 40px;
+    width: 35%;
+    
+  }
+  
+  .text {
+    width: 35%;
+    margin-right: 5px;
+  }
+
+.details a{
+    font-size: 14px;
+    color:grey;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+

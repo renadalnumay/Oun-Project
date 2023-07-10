@@ -1,0 +1,122 @@
+.welcome h1
+{
+    margin-top: 10%;
+    margin-right: 50%;
+font-size: 50px;
+}
+
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(196,183,247), 0 0 40px rgb(196,183,247), 0 0 50px rgb(196,183,247), 0 0 60px rgb(196,183,247), 0 0 70px rgb(196,183,247);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(97,219,235), 0 0 40px rgb(97,219,235), 0 0 50px rgb(97,219,235), 0 0 60px rgb(97,219,235), 0 0 70px rgb(97,219,235), 0 0 80px rgb(97,219,235);
+    }
+  }
+
+/*.button{
+background-color: rgb(41, 33, 78) ; 
+color: white;
+font-size: 40px;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+border-radius: 12px;
+transition: .4s;
+margin-top:8%;
+padding: 40px 150px;
+display: grid;
+margin-left: 25%;
+margin-right: 25%;
+text-align: center;
+
+}*/
+/*.button:hover{
+background-color: rgb(72,56, 133) ; 
+}*/
+.link a
+{
+color: rgb(41, 33, 78);
+text-decoration:underline;
+font-weight: bold;
+/*padding: 5px 10px;*/
+/*transition: .4s;*/
+font-size: 30px; 
+text-align: center;
+}
+.link a:hover{
+color:rgb(72,56, 133);
+
+}
+.link a:active{
+color: rgb(18, 7, 172);
+}
+/*
+.link a:visited
+{
+color: green;
+}
+*/
+/*
+.offer
+{
+
+outline:none;
+background-color: rgb(41, 33, 78) ; 
+20px 
+margin-top:110px;
+margin-left: 55%;
+border:none ;
+height:40px;
+width:20%;
+color: white;
+font-size:16px;
+border-radius:12px;
+transition: 0.4s;
+}
+.offer a{
+color: white;
+}
+
+.offer a:hover{
+color: rgb(72, 56, 133);
+font-size:120%;
+transition: 0.4s;
+}
+.offer:active{
+color: blue;
+}
+.offer:visited
+{
+color: green;
+}
+*/
+
+
+.current{
+position: absolute;
+top: 32%;
+left:35% ;
+transform: translateY(-30%);
+color: rgb(154, 184, 188);
+margin: 20px 0px 20px;
+}
+.viewList
+{
+position: absolute;
+top: 32%;
+left:35% ;
+transform: translateY(-30%);
+color: rgb(154, 184, 188);
+margin: 20px 0px 20px;
+font-size: 33px; 
+}

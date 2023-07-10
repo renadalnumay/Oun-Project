@@ -1,0 +1,81 @@
+.welcome h1
+{
+    margin-top: 10%;
+    margin-right: 50%;
+font-size: 50px;
+}
+
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+ 
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(196,183,247), 0 0 40px rgb(196,183,247), 0 0 50px rgb(196,183,247), 0 0 60px rgb(196,183,247), 0 0 70px rgb(196,183,247);
+    }
+   
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(97,219,235), 0 0 40px rgb(97,219,235), 0 0 50px rgb(97,219,235), 0 0 60px rgb(97,219,235), 0 0 70px rgb(97,219,235), 0 0 80px rgb(97,219,235);
+    }
+  }
+
+.button
+{
+background-color: rgb(41, 33, 78) ;
+color: white;
+font-size: 40px;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+border-radius: 12px;
+transition: .4s;
+margin-top:2%;
+padding: 40px 150px;
+display: grid;
+margin-left: 25%;
+margin-right: 25%;
+text-align: center;
+
+}
+.button:hover{
+background-color: rgb(72,56, 133) ;
+}
+.link
+{
+    margin-top: 120px;
+}
+.link a
+{
+color: rgb(41, 33, 78);
+text-decoration:underline;
+font-weight: bold;
+/*padding: 5px 10px;*/
+/*transition: .4s;*/
+font-size: 30px;
+text-align: center;
+}
+.link a:hover{
+color:rgb(72,56, 133);
+
+}
+.link a:active{
+color: rgb(18, 7, 172);
+}
+.viewList
+{
+    margin-top: 300px;
+    text-align: center;
+    color: rgb(41, 33, 78);
+    font-size: 40px;
+}
+
+
+
+
+
+
+

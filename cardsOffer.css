@@ -1,0 +1,234 @@
+@import url(//fonts.googleapis.com/css?family=Optima:300:400);
+
+
+body {
+background-color: whitesmoke;
+}
+
+.ccenter{
+justify-content: center;
+align-items: center;
+display:inline-block;
+overflow: hidden;
+position: relative;
+text-align: center;
+margin-top:5%;
+margin-left: 5%;
+margin-right: 5%;
+}
+.center {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: aliceblue;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 12px; /* was 6*/
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+  justify-content: center;
+align-items: center;
+border-radius: 12px;
+display:inline-block;
+overflow: hidden;
+/*display: inline-block; */
+position: relative;
+margin-top:6%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.card h1 {
+  text-align: center;
+  color: rgb(41, 33, 78);
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient( 60deg, rgb(196,183,247)0%, rgb(97,219,235)100%); /* was red*/
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+ .card .additional .danger{
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient( 60deg, rgb(218, 61, 61)0%, rgb(133,56,56)100%); /* was red*/
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+ .card .additional .accept{
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient( 60deg, rgb(97, 183, 113)0%, rgb(57, 133, 56)100%); /* was red*/
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+
+
+/*.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+} not cloooooosinnnnnnggg*/
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+.card .additional .user-card .Date {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .offerstatus {
+    top: 15%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    background: rgba(0,0,0,0.15);
+    padding: 0.125rem 0.75rem;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+.card .additional .user-card .offerstatus {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  width: 300px;
+  float: left;
+  position: absolute; /* so the writing wont move.. */
+  left: 150px;
+  height: 100%;
+}
+
+/*.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+}*/
+
+.card .general .coords {
+  margin: 0 1rem;
+  color: rgb(41, 33, 78);
+  font-size: 1rem;
+  text-align: left;
+}
+
+
+.card .general .coords span + span {
+  float: right; /* the white text on the left side*/
+}
+
+.card .general .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: rgb(41, 33, 78);
+}
+
+/*.card .additional .stats {
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    top: auto;
+    color: rgb(255, 255, 255);
+  }*/
+
+
+.card .general .stats > div {
+  flex: 2;
+  text-align: center;
+}
+
+
+
+.card .general .stats div.title { /*title of duration&price*/
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card .general .stats div.value { /* the valus of price*/
+  font-size: 1rem;
+  font-weight:500;
+  line-height: 1.5rem;
+  padding-bottom: 2%;
+}
+
+.card .general .stats div.valueDuration { /* the valus of duration*/
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding-bottom: 2%;
+
+  }
+
+
+.card .general {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+

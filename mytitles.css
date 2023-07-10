@@ -1,0 +1,24 @@
+fieldset{
+    overflow-wrap: normal;
+}
+
+.mytitlew{
+    margin-top: 4%;
+    text-align:center;
+    color: rgb(41, 33, 78);
+    
+     }
+     .mytitle{
+        margin-top: 13%;
+          text-align:center;
+          color: rgb(41, 33, 78);
+      }    
+      div .mytitler{
+        margin-top: 50%;
+          text-align:center;
+          color: rgb(41, 33, 78);
+          margin-bottom: -30px;
+      }   
+      .curbody{
+        text-align: center;
+        }
